@@ -1,0 +1,1 @@
+//em branco pra nao acontecer nada durante a colisão

@@ -1,0 +1,2 @@
+
+//room = room_loja

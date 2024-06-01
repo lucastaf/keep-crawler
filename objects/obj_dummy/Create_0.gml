@@ -1,0 +1,1 @@
+currenttext = 0

@@ -1,0 +1,1 @@
+currenttext = other.dmg
