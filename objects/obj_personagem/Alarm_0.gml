@@ -9,10 +9,6 @@ ultimate = status.ulttotal
 }
 }
 
-if status.flechas < global.localups.bowammo.status{
-status.flechas++
-}
-
-if status.bombas < global.localups.bombammo.status{
-status.bombas ++
+if status.ammo < global.localups.ammo.status{
+status.ammo++
 }

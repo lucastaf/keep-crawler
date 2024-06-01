@@ -1,6 +1,6 @@
 /// @description Receber Dano
 
-delaydano = 0
+delaydmg = 0
 
 
 

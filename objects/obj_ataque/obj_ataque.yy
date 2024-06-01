@@ -13,7 +13,10 @@
     "name":"Ataques",
     "path":"folders/Objects/Personagem/Ataques.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_player_ataque",
+    "path":"objects/obj_player_ataque/obj_player_ataque.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

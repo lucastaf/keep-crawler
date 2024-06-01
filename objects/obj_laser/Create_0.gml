@@ -1,15 +1,22 @@
-dmg = global.localups.dmg.status*global.dmgmult.laser
-switch(face){
-case "cima":
-image_angle = 0
-break;
-case "baixo":
-image_angle = 180
-break;
-case"esq":
-image_angle = 90
-break;
-case"dir":
-image_angle = 270
-break;	
+dmg = global.localups.dmg.status * global.dmgmult.orb / 10
+x = obj_personagem.x + relativePosition[0] * playerSize
+y = obj_personagem.y + relativePosition[1] * playerSize
+pressedKey = "A"
+
+
+#region //PressedKey
+if(relativePosition[0] == -1){
+	pressedKey = "A";
+	image_angle = 90
 }
+if(relativePosition[0] == 1){
+	pressedKey = "D";	
+	image_angle = 90
+
+}if(relativePosition[1] == -1){
+	pressedKey = "W";	
+}
+if(relativePosition[1] == 1){
+	pressedKey = "S";	
+}
+#endregion

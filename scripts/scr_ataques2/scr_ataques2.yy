@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_ataques2",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Personagem",
+    "path":"folders/Objects/Personagem.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
