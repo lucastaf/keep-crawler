@@ -1,1 +1,0 @@
-vida -= other.dmg

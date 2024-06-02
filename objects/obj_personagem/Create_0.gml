@@ -1,5 +1,5 @@
 //classes=["swordsman","archer","mage","bombman","lancer"]
-class=4
+class=0
 status = {
 	vidatotal : global.localups.vida.status,
 	staminatotal : global.localups.stamina.status,
@@ -33,8 +33,9 @@ vida = status.vidatotal
 
 instance_create_depth(0,0,-100,obj_levelstatus)
 
+#region //Classes
 classes = [
-	{
+	{ //Swordsman
 		name: "swordsman",
 		/// @param {real} xpos @param {real} ypos
 		attack: function(xpos,ypos){
@@ -42,10 +43,23 @@ classes = [
 			instance_create_depth(other.x+xpos*70,other.y+ypos*70,-10,obj_ataque, {relativePosition:[xpos,ypos]})
 			other.stamina -= other.status.staminaespada
 			}
+		},
+		especialAttack: function() {
+			if other.stamina >= other.status.staminadodge {
+				player = other
+				other.movimento.spd = 25
+				other.dodging = true
+				
+				time_source_start(time_source_create(time_source_game, 15, time_source_units_frames, function(){
+					player.movimento.spd = player.movimento.fullspd
+					player.dodging = false
+				}))
+				other.stamina -= other.status.staminadodge
+			}
 		}
 		
 	},
-	{
+	{ //Archer
 		name: "archer",
 		attack: function (xpos,ypos){
 			if other.status.ammo > 0{
@@ -58,10 +72,15 @@ classes = [
 				other.status.ammo --
 				other.charge = 0
 				}
-		}	
+		},
+		especialAttack: function() {
+			if other.charge <= 100{
+				other.charge++
+			}	
+		}
 		
 	},
-	{
+	{ //Mage
 		name: "mage",
 		laserInstance : undefined,
 		attack: function scr_staffatk(xpos,ypos){
@@ -79,10 +98,16 @@ classes = [
 			}
 			
 			
+		},
+		especialAttack: function() {
+			 if other.mana >= 	30{
+				instance_create_depth(other.x,other.y,-10,obj_orb)
+				other.mana -= 30	
+			 }
 		}
 
 	},
-	{
+	{ //Bombman
 		name: "bombman",
 		attack: function (xpos,ypos){
 			if instance_number(obj_marreta) = 0 {
@@ -90,10 +115,16 @@ classes = [
 				relativePosition : [xpos,ypos],
 			});
 			}
+		},
+		especialAttack: function () {
+			if other.status.ammo > 0{
+				instance_create_depth(other.x, other.y,-10,obj_bomba)
+				other.status.ammo --
+			}
 		}
 
 	},
-	{
+	{ //Lancer
 		name: "lancer",
 		attack: function (xpos,ypos){
 			if instance_number(obj_lanca) = 0 || other.ultativo = 1 {
@@ -102,9 +133,13 @@ classes = [
 					ulted : other.ultativo,			
 				})
 			}
+		},
+		especialAttack: function () {
+			//Ataque especial do lancer é feito pelo obj_lanca
 		}
 	}
 ]
+#endregion
 
 
 

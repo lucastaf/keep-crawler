@@ -1,6 +1,6 @@
 /// @description Receber Dano
 
-delaydmg = 0
+invincibility = 0
 
 
 
