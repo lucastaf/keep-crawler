@@ -1,22 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ataque",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_playerAttack",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ataque",
+  "name":"obj_playerAttack",
   "overriddenProperties":[],
   "parent":{
     "name":"Ataques",
     "path":"folders/Objects/Personagem/Ataques.yy",
   },
-  "parentObjectId":{
-    "name":"obj_player_ataque",
-    "path":"objects/obj_player_ataque/obj_player_ataque.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,15 +24,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"dmg","filters":[],"listItems":[],"multiselect":false,"name":"dmg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"relativePosition","filters":[],"listItems":[],"multiselect":false,"name":"relativePosition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[0,0]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"knockBackPower","filters":[],"listItems":[],"multiselect":false,"name":"knockBackPower","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ataque",
-    "path":"sprites/spr_ataque/spr_ataque.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

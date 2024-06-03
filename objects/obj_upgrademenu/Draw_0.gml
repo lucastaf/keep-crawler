@@ -26,6 +26,6 @@ draw_text_outline_transformed(allboxes.boxx[i],allboxes.boxy[i] + 90,"LVL "+stri
 //show_debug_message(allboxes.boxstatus[0])
 
 if currentselec != "false" && (extra_class=true || currentselec!= 5){
-	draw_text_outline_transformed(obj_personagem.x,obj_personagem.y+64,allboxes.boxstatus[currentselec],c_white,c_black,2,1,1)
+	draw_text_outline_transformed(obj_player.x,obj_player.y+64,allboxes.boxstatus[currentselec],c_white,c_black,2,1,1)
 //draw_text_outline_centered(mouse_x,mouse_y,string(allboxes.boxstatus[currentmouse]) + " -> " + string(allboxes.boxstatus[currentmouse]+50),c_white,c_black,2,1,1,fa_right)
 }

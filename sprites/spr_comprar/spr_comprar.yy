@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":5,
+  "origin":4,
   "parent":{
     "name":"Hud",
     "path":"folders/Sprites/Hud.yy",
@@ -94,7 +94,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":32,
     "yorigin":32,
   },
   "swatchColours":null,

@@ -2,9 +2,9 @@ event_inherited()
 
 switch(state){
 case "perseguindo" :
-	if instance_exists(obj_personagem){
-		mp_potential_step(obj_personagem.x,obj_personagem.y, spd,0)
-		if distance_to_object(obj_personagem) < 15 {
+	if instance_exists(obj_player){
+		mp_potential_step(obj_player.x,obj_player.y, spd,0)
+		if distance_to_object(obj_player) < 15 {
 			state = "atacando"	
 	}
 }
@@ -19,9 +19,9 @@ break;
 
 case "fugindo" :
 
-	var targetdirection = point_direction(obj_personagem.x,obj_personagem.y,x,y)
-	xtarget = obj_personagem.x + dcos(targetdirection)*(distances.far+100)
-	ytarget = obj_personagem.y - dsin(targetdirection)*(distances.far+100)
+	var targetdirection = point_direction(obj_player.x,obj_player.y,x,y)
+	xtarget = obj_player.x + dcos(targetdirection)*(distances.far+100)
+	ytarget = obj_player.y - dsin(targetdirection)*(distances.far+100)
 	mp_potential_step(xtarget,ytarget,spd,false)
 break;
 

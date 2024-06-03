@@ -1,6 +1,6 @@
 dmg = global.localups.dmg.status * global.dmgmult.orb / 10
-x = obj_personagem.x + relativePosition[0] * playerSize
-y = obj_personagem.y + relativePosition[1] * playerSize
+x = obj_player.x + relativePosition[0] * playerSize
+y = obj_player.y + relativePosition[1] * playerSize
 pressedKey = "A"
 
 

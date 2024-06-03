@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_ataque",
-  "eventList":[],
+  "%Name":"obj_solid",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_player_ataque",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ataques",
-    "path":"folders/Objects/Personagem/Ataques.yy",
+    "name":"Cenario",
+    "path":"folders/Objects/Cenario.yy",
   },
   "parentObjectId":null,
   "persistent":false,

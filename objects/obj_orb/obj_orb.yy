@@ -16,8 +16,8 @@
     "path":"folders/Objects/Personagem/Ataques.yy",
   },
   "parentObjectId":{
-    "name":"obj_player_ataque",
-    "path":"objects/obj_player_ataque/obj_player_ataque.yy",
+    "name":"obj_playerAttack",
+    "path":"objects/obj_playerAttack/obj_playerAttack.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

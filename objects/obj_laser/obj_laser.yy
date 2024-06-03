@@ -13,8 +13,8 @@
     "path":"folders/Objects/Personagem/Ataques.yy",
   },
   "parentObjectId":{
-    "name":"obj_player_ataque",
-    "path":"objects/obj_player_ataque/obj_player_ataque.yy",
+    "name":"obj_playerAttack",
+    "path":"objects/obj_playerAttack/obj_playerAttack.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,6 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"relativePosition","filters":[],"listItems":[],"multiselect":false,"name":"relativePosition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[0,0]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"playerInstance","filters":[],"listItems":[],"multiselect":false,"name":"playerInstance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",

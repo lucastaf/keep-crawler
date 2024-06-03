@@ -1,21 +1,24 @@
 if vida <= 0 {instance_destroy()}
 
-if place_meeting(x,y,obj_flecha) {
-	vida -= obj_flecha.dmg
-}
-
 if place_meeting(x,y,obj_explosao) {
 	vida -= global.localups.dmg.status*global.dmgmult.bomb
 }
 
-if place_meeting(x,y,obj_lanca) {
-	if delaydmg = 0 {
-		vida -= obj_lanca.dmg
-		delaydmg= 1
-		alarm[1]=20
+if place_meeting(x,y,obj_playerAttack) {)
+	var attackInstance = instance_place(x,y,obj_playerAttack)
+	if !invincibility {
+		vida -= attackInstance.dmg
+		time_source_start(knockBackTimeSource)
+		knockbackAngle = attackInstance.image_angle
+		knockBackForce = attackInstance.knockBackPower
+		invincibility = true
 	}	
+}else{
+	invincibility = false	
 }
 
 
 
-show_debug_message("Step herdado do Pai")
+if knockBackForce {
+	move_to_angle(knockbackAngle,knockBackForce)
+}

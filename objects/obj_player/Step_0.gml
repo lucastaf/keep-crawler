@@ -15,52 +15,22 @@ if keyboard_check(vk_up){
 	movimento.vspd = 0
 }
 
-
-move_and_collide(movimento.hspd, movimento.vspd, obj_parede)
+show_debug_message(string(movimento.hspd) + " " + string(movimento.spd))
+move_and_collide(movimento.hspd, movimento.vspd, obj_solid)
 #endregion
 
-#region Ataque
-if keyboard_check_pressed(ord("W")){
-	classes[class].attack(0,-1)
-}
-if keyboard_check_pressed(ord("A")){
-	classes[class].attack(-1,0)
-}
-if keyboard_check_pressed(ord("S")){
-	classes[class].attack(0,1)
-}
-if keyboard_check_pressed(ord("D")){
-	classes[class].attack(1,0)
-}
-
-//Espcial
-if class = 1 {
-	if keyboard_check(vk_space){
-		classes[class].especialAttack()
-	}else if !ultativo{
-		charge = 0
-	}
-}else{
-	if keyboard_check_pressed(vk_space){
-		classes[class].especialAttack()	
-	}
-}
-
-#endregion
-		
 #region Corrida
 if keyboard_check(vk_lshift) && (stamina > 0) {
 	movimento.spd = 10
 	stamina --
-} else { 
-	if (status.staminatotal > stamina) && !keyboard_check(vk_lshift){
-		stamina++ 
-		}
-	if dodging = false{
-		movimento.spd = movimento.fullspd
-	}
-}	
-#endregion	
+} else if (status.staminatotal > stamina) && !keyboard_check(vk_lshift){
+	stamina++ 
+}
+if keyboard_check_released(vk_shift){
+	movimento.spd = movimento.fullspd
+}
+
+#endregion
 
 #region Colisões
 //colisões
@@ -69,11 +39,19 @@ if place_meeting(x,y,obj_explosao){
 }
 
 //slow
-if place_meeting(x,y,obj_inimigo) && dodging = false{
-	movimento.spd = movimento.fullspd/2
+if place_meeting(x,y,obj_inimigo){
+	if movimento.spd == movimento.fullspd{
+		movimento.spd = movimento.fullspd/10
+	}
+	if !invincibility {
+		vida -= instance_place(x,y,obj_inimigo).dmg
+		time_source_start(time_source_create(time_source_game,20, time_source_units_frames, function(){
+			invincibility = false
+		}))
+		invincibility = true	
+	}
 }
 #endregion
-
 
 #region defaultRecharges
 if status.manatotal > mana{
@@ -82,7 +60,7 @@ if status.manatotal > mana{
 
 #endregion
 
-#region //ultimate
+#region ultimate
 if keyboard_check_pressed(ord("Z")) && ultimate >= status.ulttotal{
 	ultativo = true
 }
@@ -122,6 +100,3 @@ if ultativo = true{
 if vida <= 0{
 	instance_destroy()
 }
-
-
-

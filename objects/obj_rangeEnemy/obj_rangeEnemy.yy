@@ -9,8 +9,8 @@
   "name":"obj_rangeEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Objects/inimigos.yy",
+    "name":"partial",
+    "path":"folders/Objects/inimigos/partial.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigo",
