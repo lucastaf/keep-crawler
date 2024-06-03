@@ -25,8 +25,11 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"dmg","filters":[],"listItems":[],"multiselect":false,"name":"dmg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"relativePosition","filters":[],"listItems":[],"multiselect":false,"name":"relativePosition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[0,0]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"knockBackPower","filters":[],"listItems":[],"multiselect":false,"name":"knockBackPower","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"relativePosition","filters":[],"listItems":[
+        "\"Item 0\"",
+        "\"Item 1\"",
+      ],"multiselect":false,"name":"relativePosition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[0, 0]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

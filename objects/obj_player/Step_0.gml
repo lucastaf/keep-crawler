@@ -15,7 +15,6 @@ if keyboard_check(vk_up){
 	movimento.vspd = 0
 }
 
-show_debug_message(string(movimento.hspd) + " " + string(movimento.spd))
 move_and_collide(movimento.hspd, movimento.vspd, obj_solid)
 #endregion
 
@@ -40,7 +39,7 @@ if place_meeting(x,y,obj_explosao){
 
 //slow
 if place_meeting(x,y,obj_inimigo){
-	if movimento.spd == movimento.fullspd{
+	if movimento.spd = movimento.fullspd{
 		movimento.spd = movimento.fullspd/10
 	}
 	if !invincibility {
@@ -50,6 +49,8 @@ if place_meeting(x,y,obj_inimigo){
 		}))
 		invincibility = true	
 	}
+} else if movimento.spd < movimento.fullspd{
+	movimento.spd = movimento.fullspd	
 }
 #endregion
 

@@ -1,3 +1,4 @@
-mp_potential_step(obj_player.x, obj_player.y, spd, false)
-
+if instance_exists(obj_player) {
+	mp_potential_step(obj_player.x, obj_player.y, spd, false)
+}
 event_inherited()

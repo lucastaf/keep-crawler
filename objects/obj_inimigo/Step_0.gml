@@ -4,7 +4,7 @@ if place_meeting(x,y,obj_explosao) {
 	vida -= global.localups.dmg.status*global.dmgmult.bomb
 }
 
-if place_meeting(x,y,obj_playerAttack) {)
+if place_meeting(x,y,obj_playerAttack) {
 	var attackInstance = instance_place(x,y,obj_playerAttack)
 	if !invincibility {
 		vida -= attackInstance.dmg
