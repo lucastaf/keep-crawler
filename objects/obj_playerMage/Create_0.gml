@@ -1,6 +1,7 @@
 event_inherited();
 
-mana = status.manatotal
+status.manaOrb = 20
+mana = global.localups.mana.status
 
 laserInstance = undefined
 function attack (xpos,ypos){
@@ -15,7 +16,7 @@ function attack (xpos,ypos){
 	}else{
 		if laserInstance != undefined {
 			instance_destroy(laserInstance)	
-		}d	
+		}
 	}
 						
 }

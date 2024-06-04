@@ -7,7 +7,7 @@ direction = vectorToAngle(relativePosition)
 
 if ulted = 1 {
 	image_blend = c_aqua
-	alarm[0] = 50
+	alarm[0] = 150
 }
 
 var setdelay = function()

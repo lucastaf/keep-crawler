@@ -69,13 +69,6 @@ if place_meeting(x,y,obj_inimigo){
 }
 #endregion
 
-#region defaultRecharges
-if status.manatotal > mana{
-	mana++
-}
-
-#endregion
-
 #region ultimate
 if keyboard_check_pressed(ord("Z")) && ultimate >= status.ulttotal{
 	ultativo = true
@@ -85,28 +78,9 @@ if ultativo = true{
 	if ultimate > 0{
 		ultimate --
 		image_blend = c_orange
-		switch(classes[class].name){
-		case "swordsman":	
-			stamina = status.staminatotal
-			status.dano = global.localups.sworddmg.status = status.dano *2
-		break;
-		case "archer":
-			status.ammo = global.localups.ammo.status
-			charge = 100
-		break;
-		case "mage":
-			mana = status.manatotal
-		break;
-		case "bombman":
-			vida = status.vidatotal
-			status.bombas = global.localups.bombammo.status
-		break;
-		//o ultimate do lancer esta descrito junto do ataque padrao
-		}
 	}else{
 		ultativo = false
 		image_blend = c_white
-		status.dano = global.localups.dmg.status
 	}
 }
 

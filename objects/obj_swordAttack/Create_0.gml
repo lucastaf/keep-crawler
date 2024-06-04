@@ -1,5 +1,5 @@
 knockBackPower = 15
-dmg = global.localups.dmg.status * global.dmgmult.sword
+dmg = dmg * global.dmgmult.sword
 image_angle = vectorToAngle(relativePosition)
 alarm[0] = 15
 

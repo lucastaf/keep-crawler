@@ -1,5 +1,7 @@
 #macro playerSize 70
 
+
+selectedClass = obj_playerSwordsMan
 //Classes
 classes=["swordsman","archer","mage","bombman","lancer"]
 global.class=classes[0]
@@ -41,7 +43,7 @@ price : 200,
 },
 ultimate : {
 level : 1,
-status : 50,
+status : 10000,
 price : 200,	
 },
 xpmult : {

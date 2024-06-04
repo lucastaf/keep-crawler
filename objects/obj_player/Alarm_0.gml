@@ -9,6 +9,3 @@ if (ultimate < status.ulttotal) && !ultativo{
 	}
 }
 
-if status.ammo < global.localups.ammo.status{
-	status.ammo++
-}

@@ -26,6 +26,6 @@ if place_meeting(x,y,obj_player) && !ulted && deleteDelay{
 
 
 //rodadinha em volta do personagem
-if collision_circle(obj_player.x,obj_player.y,100,self,true,false) && ulted{
+if collision_circle(obj_player.x,obj_player.y,100,self,true,false) && ulted && keyboard_check(vk_space){
 	direction = point_direction(x,y,obj_player.x,obj_player.y) + 90
 }

@@ -63,6 +63,8 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_playerArcher","path":"objects/obj_playerArcher/obj_playerArcher.yy",},},
     {"id":{"name":"obj_playerAttack","path":"objects/obj_playerAttack/obj_playerAttack.yy",},},
+    {"id":{"name":"obj_playerBombMan","path":"objects/obj_playerBombMan/obj_playerBombMan.yy",},},
+    {"id":{"name":"obj_playerLancer","path":"objects/obj_playerLancer/obj_playerLancer.yy",},},
     {"id":{"name":"obj_playerMage","path":"objects/obj_playerMage/obj_playerMage.yy",},},
     {"id":{"name":"obj_playerSwordsMan","path":"objects/obj_playerSwordsMan/obj_playerSwordsMan.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},

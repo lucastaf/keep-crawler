@@ -1,5 +1,7 @@
 event_inherited();
 
+status.ammo = global.localups.ammo.status
+
 function attack(xpos,ypos){
 	if status.ammo > 0{
 	var charged = charge >=100 ? true : false
