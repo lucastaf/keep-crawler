@@ -1,16 +1,4 @@
 #region Ataque
-if keyboard_check_pressed(ord("W")){
-	attack(0,-1)
-}
-if keyboard_check_pressed(ord("A")){
-	attack(-1,0)
-}
-if keyboard_check_pressed(ord("S")){
-	attack(0,1)
-}
-if keyboard_check_pressed(ord("D")){
-	attack(1,0)
-}
 
 //Espcial
 if keyboard_check(vk_space){

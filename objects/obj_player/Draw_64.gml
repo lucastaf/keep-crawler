@@ -11,8 +11,7 @@ draw_healthbar(50,120-5,400,140-5,(100*mana)/status.manatotal,c_white,c_aqua,c_a
 break;
 
 case "archer":
-draw_text_outline_transformed(410,120,status.ammo,c_orange,c_white,2,1,1)
-draw_healthbar(50,120-5,400,140-5,(100*charge)/100,c_white,c_aqua,c_aqua,0,true,false)
+
 break;
 
 case"bombman":

@@ -25,61 +25,21 @@ movimento= {
 invincibility = false
 ultativo = false
 ultimate = status.ulttotal
-charge = 0
 
-mana = status.manatotal
 stamina = status.staminatotal
 vida = status.vidatotal
 
 instance_create_depth(0,0,-100,obj_levelstatus)
 alarm[0]=50
 
+function attack(a,b){
+	show_debug_message("Funcao Attack chamada em obj_player")
+} //Função vazia será reposta nos filhos
+
 #region //Classes
 classes = [
-	{ //Archer
-		name: "archer",
-		attack: function (xpos,ypos){
-			if other.status.ammo > 0{
-				var charged = other.charge >=100 ? true : false
-				var golpe = instance_create_depth(other.x+(xpos * playerSize), other.y+(ypos*playerSize),-10,obj_flecha,{
-					direction : vectorToAngle([xpos,ypos]),
-					image_angle : vectorToAngle([xpos,ypos]),
-					relativePosition : [xpos,ypos]
-				})
-				if charged {golpe.piercing=true golpe.speed=20 golpe.dmg=2*golpe.dmg}
-				other.status.ammo --
-				other.charge = 0
-				}
-		},
-		especialAttack: function() {
-			if other.charge <= 100{
-				other.charge++
-			}	
-		}
-		
-	},
 	{ //Mage
-		name: "mage",
-		laserInstance : undefined,
-		attack: function (xpos,ypos){
-			
-			if other.mana >= other.status.manaOrb {
-				if instance_number(obj_laser) == 0{
-					var playerInstance = other
-					laserInstance =  instance_create_depth(other.x,other.y,-10,obj_laser, {
-						relativePosition:[xpos,ypos],
-						playerInstance : playerInstance 
-					})
-				}
-				
-			}else{
-				if laserInstance != undefined {
-					instance_destroy(laserInstance)	
-				}	
-			}
-			
-			
-		},
+
 		especialAttack: function() {
 			 if other.mana >= 	30{
 				instance_create_depth(other.x,other.y,-10,obj_orb)

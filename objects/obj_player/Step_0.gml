@@ -31,6 +31,21 @@ if keyboard_check_released(vk_shift){
 
 #endregion
 
+#region ataque
+if keyboard_check_pressed(ord("W")){
+	attack(0,-1)
+}
+if keyboard_check_pressed(ord("A")){
+	attack(-1,0)
+}
+if keyboard_check_pressed(ord("S")){
+	attack(0,1)
+}
+if keyboard_check_pressed(ord("D")){
+	attack(1,0)
+}
+#endregion
+
 #region Colisões
 //colisões
 if place_meeting(x,y,obj_explosao){

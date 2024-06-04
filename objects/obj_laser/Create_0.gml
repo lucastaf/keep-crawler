@@ -5,18 +5,18 @@ pressedKey = "A"
 
 
 #region //PressedKey
-if(relativePosition[0] == -1){
+if(relativePosition[0] == -1)
 	pressedKey = "A";
-	image_angle = 90
-}
-if(relativePosition[0] == 1){
-	pressedKey = "D";	
-	image_angle = 90
 
-}if(relativePosition[1] == -1){
+if(relativePosition[0] == 1)
+	pressedKey = "D";	
+	
+if(relativePosition[1] == -1){
 	pressedKey = "W";	
+	image_angle = 90
 }
 if(relativePosition[1] == 1){
 	pressedKey = "S";	
+	image_angle = 90
 }
 #endregion
