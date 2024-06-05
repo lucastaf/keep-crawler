@@ -1,5 +1,4 @@
 event_inherited();
 
-
-delayatk = 0
-state="perseguindo"
+closeRange = 100
+longRange = 300

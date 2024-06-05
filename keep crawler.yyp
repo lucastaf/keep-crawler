@@ -43,6 +43,7 @@
   "name":"keep crawler",
   "resources":[
     {"id":{"name":"Font_pixelart","path":"fonts/Font_pixelart/Font_pixelart.yy",},},
+    {"id":{"name":"obj_ataqueInimigo","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},},
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_cobra","path":"objects/obj_cobra/obj_cobra.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},

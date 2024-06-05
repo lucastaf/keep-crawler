@@ -10,7 +10,7 @@ if place_meeting(x,y,obj_playerAttack) {
 		vida -= attackInstance.dmg
 		time_source_start(knockBackTimeSource)
 		knockbackAngle = attackInstance.image_angle
-		knockBackForce = attackInstance.knockBackPower
+		knockBackForce = attackInstance.knockBackPower * knockBackAbsorption
 		invincibility = true
 	}	
 }else{

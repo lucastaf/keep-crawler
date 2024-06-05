@@ -53,12 +53,12 @@ if place_meeting(x,y,obj_explosao){
 }
 
 //slow
-if place_meeting(x,y,obj_inimigo){
+if place_meeting(x,y,obj_ataqueInimigo){
 	if movimento.spd = movimento.fullspd{
-		movimento.spd = movimento.fullspd/10
+		movimento.spd = movimento.fullspd/2
 	}
 	if !invincibility {
-		vida -= instance_place(x,y,obj_inimigo).dmg
+		vida -= instance_place(x,y,obj_ataqueInimigo).dmg
 		time_source_start(time_source_create(time_source_game,20, time_source_units_frames, function(){
 			invincibility = false
 		}))
