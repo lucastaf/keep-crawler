@@ -1,15 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_orbBruxa",
+  "%Name":"obj_poison",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_orbBruxa",
+  "name":"obj_poison",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ataqueInimigo","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"propertyId":{"name":"dmg","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ataqueInimigo","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"propertyId":{"name":"dmg","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"ataques",
@@ -37,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_orbBruxa",
-    "path":"sprites/spr_orbBruxa/spr_orbBruxa.yy",
+    "name":"spr_poison",
+    "path":"sprites/spr_poison/spr_poison.yy",
   },
   "spriteMaskId":null,
   "visible":true,

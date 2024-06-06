@@ -1,23 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_orbBruxa",
+  "%Name":"obj_cogumelo",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_orbBruxa",
+  "name":"obj_cogumelo",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ataqueInimigo","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"propertyId":{"name":"dmg","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"propertyId":{"name":"knockBackAbsorption","path":"objects/obj_inimigo/obj_inimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
   ],
   "parent":{
-    "name":"ataques",
-    "path":"folders/Objects/inimigos/ataques.yy",
+    "name":"inimigos",
+    "path":"folders/Objects/inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_ataqueInimigo",
-    "path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",
+    "name":"obj_inimigo",
+    "path":"objects/obj_inimigo/obj_inimigo.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_orbBruxa",
-    "path":"sprites/spr_orbBruxa/spr_orbBruxa.yy",
+    "name":"spr_cogumelo",
+    "path":"sprites/spr_cogumelo/spr_cogumelo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

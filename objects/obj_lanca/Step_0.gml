@@ -1,4 +1,3 @@
-//direction = point_direction(x,y,obj_personagem.x,obj_personagem.y)
 image_angle = direction
 //acel = 1
 
