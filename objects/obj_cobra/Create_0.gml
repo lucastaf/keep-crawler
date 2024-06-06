@@ -1,19 +1,6 @@
-vidatotal = 400
-vida = vidatotal
-dano = 10
-//healthbar
+event_inherited()
+atkSpdMult = 3
 
-delayatk = 0
-delayrest = 0
-targetdirection = 0
-state="perseguindo"
-spd = 4
-//knockback
-lastknockback = 0
-hknockback = 0
-vknockback = 0
-kspd = 10
-delaydmg = 0
-delay1=0
-
-level = dano + vidatotal
+attacking = false
+closeDistance = 150
+coolDown = 0

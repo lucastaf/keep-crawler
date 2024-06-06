@@ -1,5 +1,5 @@
 if !instance_exists(target){
-	target=instance_nearest(x,y,obj_inimigo)
+	target=instance_nearest(x,y,obj_player)
 }
 
 if target != noone && instance_exists(target){
@@ -12,4 +12,8 @@ if !point_in_rectangle(x,y,0,0,room_width,room_height){
 
 if place_meeting(x,y,target){
 	alarm[0] = 1
+}
+
+if place_meeting(x,y,obj_parede){
+	instance_destroy()	
 }
