@@ -1,11 +1,11 @@
 /// @description Timer Geral
 alarm[0] = 100
 
-if (ultimate < status.ulttotal) && !ultativo{
-	if (ultimate+status.recargault) <= status.ulttotal{
-		ultimate += status.recargault}
+if (ultimate < lvlUpgrades.ultimate.status) && !ultativo{
+	if (ultimate+10) <= status.ulttotal{
+		ultimate += 10}
 	else{
-		ultimate = status.ulttotal
+		ultimate = lvlUpgrades.ultimate.status
 	}
 }
 

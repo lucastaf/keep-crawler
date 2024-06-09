@@ -1,18 +1,20 @@
 if instance_exists(obj_player){
 	var distance = distance_to_object(obj_player)
 	if !attacking && !coolDown && distance < closeDistance{
-		attacking = true
-		time_source_start(time_source_create(time_source_game,1,time_source_units_seconds,function(){
-			if instance_exists(obj_player){
-				direction = point_direction(x,y,obj_player.x,obj_player.y)
-				speed = spd * atkSpdMult
-			}
+		attacking = 1
+		time_source_start(time_source_create(time_source_game,0.5,time_source_units_seconds,function(){
+			attacking = 2
+			direction = point_direction(x,y,obj_player.x,obj_player.y)
 			time_source_start(time_source_create(time_source_game,0.5,time_source_units_seconds,function(){
 				speed = 0
 				attacking = false
-				coolDown = 50
+				coolDown = 30
 			}))	
 		}))
+	}else if attacking = 2 {
+		if instance_exists(obj_player){
+			move_to_angle(direction, spd * atkSpdMult)
+		}
 	}
 	if coolDown {
 		coolDown--	
@@ -23,4 +25,6 @@ if instance_exists(obj_player){
 	}
 		
 }
+
+image_xscale = dcos(direction) > 0 ? 1 : -1
 event_inherited()

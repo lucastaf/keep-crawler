@@ -2,7 +2,7 @@ if !collision_rectangle(0,0,room_width,room_height,self,0,false){
 	instance_destroy()
 }
 
-playerInstance.mana -= playerInstance.status.manaOrb / 20
+playerInstance.mana -= playerInstance.manaOrb / 20
 
 if playerInstance.mana <= 0 instance_destroy()
 

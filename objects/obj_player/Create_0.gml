@@ -1,12 +1,46 @@
-//classes=["swordsman","archer","mage","bombman","lancer"]
-status = {
-	vidatotal : global.localups.vida.status,
-	staminatotal : global.localups.stamina.status,
-	dano : global.localups.dmg.status,
-	recargault : 10,
-	ulttotal: global.localups.ultimate.status,
-}
+lvlUpgrades = {
+//padrao
+vida : {
+	level : 1,
+	status : 100,
+	price : 100,
+},
+dmg : {
+	level : 1,
+	status : 100,
+	price : 100,
+},
+stamina : {
+	level : 1,
+	status : 50,
+	price : 200,
+},
+ultimate : {
+	level : 1,
+	status : 10000,
+	price : 200,	
+},
+xpmult : {
+	level : 1,
+	status : 1,
+	price : 200,
+},
 
+//por classe
+mana : {
+	level : 1,
+	status : 100,
+	price : 100,
+},
+ammo : {
+	level : 1,
+	status : 50,
+	price : 10,	
+},
+}
+	
+//classes=["swordsman","archer","mage","bombman","lancer"]
+recargault = 10
 movimento= {
 	fullspd: 6,
 	spd : 6,
@@ -17,10 +51,10 @@ movimento= {
 
 invincibility = false
 ultativo = false
-ultimate = status.ulttotal
+ultimate = lvlUpgrades.ultimate.status
 
-stamina = status.staminatotal
-vida = status.vidatotal
+stamina = lvlUpgrades.stamina.status
+vida = lvlUpgrades.vida.status
 
 instance_create_depth(0,0,-100,obj_levelstatus)
 alarm[0]=50

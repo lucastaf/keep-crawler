@@ -14,3 +14,5 @@ if distance < closeRange {
 } else {
 	mp_potential_step(obj_player.x, obj_player.y, spd * 1.3, false)
 }
+
+image_xscale = dcos(direction) > 0 ? 1 : -1	

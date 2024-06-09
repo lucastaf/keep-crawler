@@ -1,7 +1,6 @@
 acel = -1
 deleteDelay = 0
 speed = 30 
-dmg = global.localups.dmg.status * global.dmgmult.lance
 direction = vectorToAngle(relativePosition)
 
 

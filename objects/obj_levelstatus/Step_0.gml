@@ -1,4 +1,4 @@
-if global.resources.xp >= 100{
-global.resources.xp -= 100
-global.resources.xplevel ++
+if global.status.xp >= 100{
+global.status.xp -= 100
+global.status.level ++
 }

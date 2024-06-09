@@ -1,2 +1,2 @@
-global.resources.money += value
+global.status.money += value
 instance_destroy()

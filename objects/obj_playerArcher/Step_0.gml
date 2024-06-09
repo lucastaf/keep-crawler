@@ -6,10 +6,10 @@ if keyboard_check(vk_space){
 	charge = 0	
 }
 
-if ultativo = true && ultimate > 0 {
-	status.ammo = global.localups.ammo.status
-	charge = 100	
-}
 
 event_inherited();
 
+if ultativo = true && ultimate > 0 {
+	ammo = lvlUpgrades.ammo.status
+	charge = 100	
+}

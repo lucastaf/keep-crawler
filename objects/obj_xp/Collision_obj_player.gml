@@ -1,3 +1,3 @@
-global.resources.xp += value
+global.status.xp += value
 
 instance_destroy()

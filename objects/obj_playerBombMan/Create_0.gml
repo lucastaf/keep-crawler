@@ -1,6 +1,6 @@
 event_inherited();
 
-status.ammo = global.localups.ammo.status
+ammo = lvlUpgrades.ammo.status
 
 function attack (xpos,ypos){
 	if instance_number(obj_marreta) = 0 {

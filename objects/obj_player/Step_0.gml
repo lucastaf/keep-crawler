@@ -15,6 +15,7 @@ if keyboard_check(vk_up){
 	movimento.vspd = 0
 }
 
+image_xscale = movimento.hspd < 0 ? -1 : (movimento.hspd > 0 ? 1 : image_xscale)
 move_and_collide(movimento.hspd, movimento.vspd, obj_solid)
 #endregion
 
@@ -22,7 +23,7 @@ move_and_collide(movimento.hspd, movimento.vspd, obj_solid)
 if keyboard_check(vk_lshift) && (stamina > 0) {
 	movimento.spd = 10
 	stamina --
-} else if (status.staminatotal > stamina) && !keyboard_check(vk_lshift){
+} else if (lvlUpgrades.stamina.status > stamina) && !keyboard_check(vk_lshift){
 	stamina++ 
 }
 if keyboard_check_released(vk_shift){
@@ -49,7 +50,7 @@ if keyboard_check_pressed(ord("D")){
 #region Colisões
 //colisões
 if place_meeting(x,y,obj_explosao){
-	vida -= global.localups.dmg.status * global.dmgmult.bomb
+	vida -= global.status.level*global.explosionDamage
 }
 
 //slow
@@ -70,7 +71,7 @@ if place_meeting(x,y,obj_ataqueInimigo){
 #endregion
 
 #region ultimate
-if keyboard_check_pressed(ord("Z")) && ultimate >= status.ulttotal{
+if keyboard_check_pressed(ord("Z")) && ultimate >= lvlUpgrades.ultimate.status{
 	ultativo = true
 }
 

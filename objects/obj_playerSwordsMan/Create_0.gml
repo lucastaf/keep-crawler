@@ -1,12 +1,18 @@
 event_inherited()
 
-status.staminaespada = 30
-status.staminadodge = 50
+attackDmg = lvlUpgrades.dmg.status
+staminaespada = 30
+staminadodge = 50
 dodging = false
+
 function attack (xpos,ypos){
-	if instance_number(obj_swordAttack) <= 3 && other.stamina >= other.status.staminaespada{
-		instance_create_depth(x+xpos*70,y+ypos*70,-10,obj_swordAttack, {dmg : status.dano,relativePosition:[xpos,ypos]})
-		stamina -= status.staminaespada
+	if instance_number(obj_swordAttack) <= 3 && other.stamina >= staminaespada{
+		instance_create_depth(x+xpos*70,y+ypos*70,-10,obj_swordAttack, {
+			dmg : attackDmg * 3,
+			relativePosition:[xpos,ypos]
+		})
+		stamina -= staminaespada
+		
 	}
 }
 

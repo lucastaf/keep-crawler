@@ -5,6 +5,7 @@ function attack(xpos,ypos){
 		instance_create_depth(x + xpos, y + ypos,-10,obj_lanca,{
 		relativePosition : [xpos, ypos],
 		ulted : ultativo,			
+		dmg : lvlUpgrades.dmg.status * 2.5
 		})
 	}
 }

@@ -1,4 +1,3 @@
-dmg = global.localups.dmg.status * global.dmgmult.orb
 x = obj_player.x + relativePosition[0] * playerSize
 y = obj_player.y + relativePosition[1] * playerSize
 pressedKey = "A"
