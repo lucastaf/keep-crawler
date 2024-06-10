@@ -19,4 +19,5 @@ function attack (xpos,ypos){
 endDodgingEvent = time_source_create(time_source_game, 15, time_source_units_frames, function(){
 	movimento.spd = movimento.fullspd
 	dodging = false
+	invincibility = false
 })
