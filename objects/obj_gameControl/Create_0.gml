@@ -1,7 +1,7 @@
 #macro playerSize 70
 
 
-selectedClass = obj_playerSwordsMan
+selectedClass = obj_playerLancer
 
 //Recursos
 global.status = {

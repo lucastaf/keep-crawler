@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_mathFunction",
   "isCompatibility":false,
   "isDnD":false,

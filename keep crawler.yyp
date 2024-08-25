@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"keep crawler",
   "resources":[
@@ -77,7 +77,7 @@
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_stun","path":"objects/obj_stun/obj_stun.yy",},},
     {"id":{"name":"obj_swordAttack","path":"objects/obj_swordAttack/obj_swordAttack.yy",},},
-    {"id":{"name":"obj_upgrademenu","path":"objects/obj_upgrademenu/obj_upgrademenu.yy",},},
+    {"id":{"name":"obj_upgradeItem","path":"objects/obj_upgradeItem/obj_upgradeItem.yy",},},
     {"id":{"name":"obj_xp","path":"objects/obj_xp/obj_xp.yy",},},
     {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
     {"id":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
@@ -118,9 +118,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"room_loja","path":"rooms/room_loja/room_loja.yy",},},
     {"roomId":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
     {"roomId":{"name":"room_floresta","path":"rooms/room_floresta/room_floresta.yy",},},
-    {"roomId":{"name":"room_loja","path":"rooms/room_loja/room_loja.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
