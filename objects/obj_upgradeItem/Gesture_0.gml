@@ -1,2 +1,1 @@
-confirmBuy()
-show_debug_message("CLICADO")
+onConfirm()

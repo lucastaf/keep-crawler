@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"keep crawler",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"obj_rangeEnemy","path":"objects/obj_rangeEnemy/obj_rangeEnemy.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"obj_storeItem","path":"objects/obj_storeItem/obj_storeItem.yy",},},
     {"id":{"name":"obj_stun","path":"objects/obj_stun/obj_stun.yy",},},
     {"id":{"name":"obj_swordAttack","path":"objects/obj_swordAttack/obj_swordAttack.yy",},},
     {"id":{"name":"obj_upgradeItem","path":"objects/obj_upgradeItem/obj_upgradeItem.yy",},},

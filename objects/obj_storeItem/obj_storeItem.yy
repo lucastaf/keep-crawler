@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_upgradeItem",
+  "%Name":"obj_storeItem",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_upgradeItem",
+  "name":"obj_storeItem",
   "overriddenProperties":[],
   "parent":{
     "name":"upgrades",
@@ -32,9 +30,6 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_itensloja",
-    "path":"sprites/spr_itensloja/spr_itensloja.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
