@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_compra",
+  "%Name":"scr_buy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_compra",
+  "name":"scr_buy",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Rooms/Scripts.yy",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

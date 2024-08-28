@@ -4,11 +4,17 @@ vida : {
 	level : 1,
 	status : 100,
 	price : 100,
+	upgrade : function () {
+		selfUpgrade(5,5)
+	}
 },
 dmg : {
 	level : 1,
 	status : 100,
 	price : 100,
+	upgrade : function(){
+		selfUpgrade(5,5)	
+	}
 },
 stamina : {
 	level : 1,
@@ -38,7 +44,6 @@ ammo : {
 	price : 10,	
 },
 }
-	
 //classes=["swordsman","archer","mage","bombman","lancer"]
 recargault = 10
 movimento= {
