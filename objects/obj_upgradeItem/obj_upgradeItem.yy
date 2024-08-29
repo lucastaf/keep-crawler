@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_upgradeItem",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
@@ -33,8 +33,8 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":{
-    "name":"spr_itensloja",
-    "path":"sprites/spr_itensloja/spr_itensloja.yy",
+    "name":"spr_shopStaff",
+    "path":"sprites/spr_shopStaff/spr_shopStaff.yy",
   },
   "visible":true,
 }
