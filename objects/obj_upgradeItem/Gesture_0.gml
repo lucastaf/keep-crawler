@@ -1,1 +1,1 @@
-onConfirm()
+lvlObject.upgrade()

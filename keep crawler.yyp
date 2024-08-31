@@ -111,6 +111,7 @@
     {"id":{"name":"spr_shopArrow","path":"sprites/spr_shopArrow/spr_shopArrow.yy",},},
     {"id":{"name":"spr_shopBomba","path":"sprites/spr_shopBomba/spr_shopBomba.yy",},},
     {"id":{"name":"spr_shopBow","path":"sprites/spr_shopBow/spr_shopBow.yy",},},
+    {"id":{"name":"spr_shopColissionMask","path":"sprites/spr_shopColissionMask/spr_shopColissionMask.yy",},},
     {"id":{"name":"spr_shopDmg","path":"sprites/spr_shopDmg/spr_shopDmg.yy",},},
     {"id":{"name":"spr_shopMana","path":"sprites/spr_shopMana/spr_shopMana.yy",},},
     {"id":{"name":"spr_shopStaff","path":"sprites/spr_shopStaff/spr_shopStaff.yy",},},
