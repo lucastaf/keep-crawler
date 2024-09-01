@@ -20,16 +20,14 @@ stamina : {
 	level : 1,
 	status : 50,
 	price : 200,
+	upgrade : function(){
+		selfUpgrade(5,5)	
+	}
 },
 ultimate : {
 	level : 1,
 	status : 10000,
-	price : 200,	
-},
-xpmult : {
-	level : 1,
-	status : 1,
-	price : 200,
+	price : 200
 },
 
 //por classe
@@ -37,11 +35,17 @@ mana : {
 	level : 1,
 	status : 100,
 	price : 100,
+	upgrade : function(){
+		selfUpgrade(5,5)	
+	}
 },
 ammo : {
 	level : 1,
 	status : 50,
-	price : 10,	
+	price : 10,
+	upgrade : function(){
+		selfUpgrade(5,5)	
+	}
 },
 }
 //classes=["swordsman","archer","mage","bombman","lancer"]
