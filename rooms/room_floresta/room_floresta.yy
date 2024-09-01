@@ -14,7 +14,6 @@
     {"name":"inst_B8071CC","path":"rooms/room_floresta/room_floresta.yy",},
     {"name":"inst_231C76C4","path":"rooms/room_floresta/room_floresta.yy",},
     {"name":"inst_1500E28E","path":"rooms/room_floresta/room_floresta.yy",},
-    {"name":"inst_231EFF51","path":"rooms/room_floresta/room_floresta.yy",},
     {"name":"inst_11C2CFA0","path":"rooms/room_floresta/room_floresta.yy",},
     {"name":"inst_56ADFF9A","path":"rooms/room_floresta/room_floresta.yy",},
     {"name":"inst_71D29F4B","path":"rooms/room_floresta/room_floresta.yy",},
@@ -28,7 +27,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_231EFF51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_231EFF51","objectId":{"name":"obj_gameControl","path":"objects/obj_gameControl/obj_gameControl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":7.0,"x":64.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_18B7E948","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18B7E948","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":32.0,"y":560.0,},
         {"$GMRInstance":"v1","%Name":"inst_198FAC33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_198FAC33","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.5,"scaleY":1.0,"x":240.0,"y":736.0,},
         {"$GMRInstance":"v1","%Name":"inst_36A82404","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36A82404","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":12.5,"scaleY":1.0,"x":992.0,"y":736.0,},
@@ -51,8 +49,8 @@
   ],
   "name":"room_floresta",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"areas",
+    "path":"folders/Rooms/areas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,10 +1,16 @@
-playerInstance = instance_find(obj_player, 0)
-
+var playerInstance = instance_find(obj_player, 0)
 function getUpgradeProps(lvlObject, label, itemSprite) {
 	return {
 		lvlObject : lvlObject,
 		label : label,
-		itemSprite : itemSprite
+		itemSprite : itemSprite,
+		onClick: function () {
+			if(global.status.money >=  lvlObject.price){
+			global.status.money -= lvlObject.price
+			lvlObject.upgrade()
+		}
+
+		}
 	}
 	
 }

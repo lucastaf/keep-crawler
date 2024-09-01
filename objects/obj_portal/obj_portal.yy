@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_store",
+  "%Name":"obj_portal",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_store",
+  "name":"obj_portal",
   "overriddenProperties":[],
   "parent":{
-    "name":"upgrades",
-    "path":"folders/Objects/upgrades.yy",
+    "name":"Cenario",
+    "path":"folders/Objects/Cenario.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_portal",
+    "path":"sprites/spr_portal/spr_portal.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
