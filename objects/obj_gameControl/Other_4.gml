@@ -2,16 +2,41 @@ if room != room_gameStart return
 
 var upgradesList = [{
 	label: "VIDA",
-	lvlObject : {
-			price: 2,
-			status: 0,
-	},
+	lvlObject : initialStats.vida,
 	itemSprite : spr_shopVida,
 	onClick : function () {
-		self.lvlObject.price++
-		self.lvlObject.status += 50
-		player_instance.lvlUpgrades.vida.status += 50
-		initialStats.vida += 50
+		if global.status.level >= self.lvlObject.price {
+			global.status.level -= self.lvlObject.price
+			self.lvlObject.price++
+			self.lvlObject.status += 50
+			obj_player.lvlUpgrades.vida.status += 50
+		}
+	}
+},
+{
+	label: "DANO",
+	lvlObject : initialStats.dmg,
+	itemSprite : spr_shopDmg,
+	onClick : function () {
+		if global.status.level >= self.lvlObject.price {
+			global.status.level -= self.lvlObject.price
+			self.lvlObject.price++
+			self.lvlObject.status += 50
+			obj_player.lvlUpgrades.dmg.status += 50
+		}
+	}
+},
+{
+	label: "STAMINA",
+	lvlObject : initialStats.stamina,
+	itemSprite : spr_shopStamina,
+	onClick : function () {
+		if global.status.level >= self.lvlObject.price {
+			global.status.level -= self.lvlObject.price
+			self.lvlObject.price++
+			self.lvlObject.status += 50
+			obj_player.lvlUpgrades.stamina.status += 50
+		}
 	}
 }]
 

@@ -2,7 +2,7 @@ lvlUpgrades = {
 //padrao
 	vida : {
 		level : 1,
-		status : 100 + initialStats.vida,
+		status : 100 + initialStats.vida.status,
 		price : 100,
 		upgrade : function () {
 			selfUpgrade(5,5)
@@ -10,7 +10,7 @@ lvlUpgrades = {
 	},
 	dmg : {
 		level : 1,
-		status : 100 + initialStats.dmg,
+		status : 100 + initialStats.dmg.status,
 		price : 100,
 		upgrade : function(){
 			selfUpgrade(5,5)	
@@ -18,7 +18,7 @@ lvlUpgrades = {
 	},
 	stamina : {
 		level : 1,
-		status : 50 + initialStats.stamina,
+		status : 50 + initialStats.stamina.status,
 		price : 200,
 		upgrade : function(){
 			selfUpgrade(5,5)	

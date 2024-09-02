@@ -5,14 +5,29 @@ function startGame(){
 }
 
 function onDeath(){
+	global.dungeonLevel = 0
 	room_goto(room_gameStart)
 	startGame()
 }
+
+
+
 initialStats = {
-	vida : 0,
-	dmg : 0,
-	stamina : 0
+	vida : {
+		price: 2,
+		status: 0,
+	},
+	dmg : {
+		price: 2,
+		status: 0,
+	},
+	stamina : {
+		price: 2,
+		status: 0,
+	}
 }
+
+
 
 
 

@@ -120,7 +120,7 @@
     {"id":{"name":"spr_shopDmg","path":"sprites/spr_shopDmg/spr_shopDmg.yy",},},
     {"id":{"name":"spr_shopMana","path":"sprites/spr_shopMana/spr_shopMana.yy",},},
     {"id":{"name":"spr_shopStaff","path":"sprites/spr_shopStaff/spr_shopStaff.yy",},},
-    {"id":{"name":"spr_shopUlt","path":"sprites/spr_shopUlt/spr_shopUlt.yy",},},
+    {"id":{"name":"spr_shopStamina","path":"sprites/spr_shopStamina/spr_shopStamina.yy",},},
     {"id":{"name":"spr_shopVida","path":"sprites/spr_shopVida/spr_shopVida.yy",},},
     {"id":{"name":"spr_stun","path":"sprites/spr_stun/spr_stun.yy",},},
     {"id":{"name":"spr_tileSet","path":"sprites/spr_tileSet/spr_tileSet.yy",},},

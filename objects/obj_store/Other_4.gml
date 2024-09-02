@@ -19,30 +19,30 @@ var upgradesByClass = {
 	obj_playerSwordsMan : [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopDmg),
-		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopUlt),
+		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),
 	],
 	obj_playerArcher : [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopBow),
-		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopUlt),
+		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),
 		getUpgradeProps(playerInstance.lvlUpgrades.ammo, "AMMO",spr_shopArrow),
 	],
 	obj_playerMage : [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopStaff),
-		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopUlt),
+		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),
 		getUpgradeProps(playerInstance.lvlUpgrades.mana, "MANA",spr_shopMana),
 	],
 	obj_playerBombMan : [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopDmg),
-		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopUlt),
+		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),
 		getUpgradeProps(playerInstance.lvlUpgrades.ammo, "AMMO",spr_shopBomba),
 	],
 	obj_playerLancer: [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopDmg),
-		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopUlt),
+		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),
 	]
 	
 }

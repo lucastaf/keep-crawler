@@ -4,7 +4,7 @@ global.selectedClass = obj_playerSwordsMan
 global.dungeonLevel = 0
 //Recursos
 global.status = {
-	level : 1,
+	level : 20,
 	money : 1000,
 	xp : 0,
 }
