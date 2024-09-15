@@ -50,7 +50,7 @@ if keyboard_check_pressed(ord("D")){
 #region Colisões
 //colisões
 if place_meeting(x,y,obj_explosao){
-	vida -= global.status.level*global.explosionDamage
+	hp -= global.status.level*global.explosionDamage
 }
 
 //slow
@@ -59,7 +59,7 @@ if place_meeting(x,y,obj_ataqueInimigo){
 		movimento.spd = movimento.fullspd/2
 	}
 	if !invincibility {
-		vida -= instance_place(x,y,obj_ataqueInimigo).dmg
+		hp -= instance_place(x,y,obj_ataqueInimigo).dmg
 		time_source_start(time_source_create(time_source_game,20, time_source_units_frames, function(){
 			invincibility = false
 		}))
@@ -88,6 +88,6 @@ if ultativo = true{
 #endregion
 
 //morte
-if vida <= 0{
+if hp <= 0{
 	instance_destroy()
 }

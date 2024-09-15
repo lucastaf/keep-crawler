@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"keep crawler",
   "resources":[
@@ -83,14 +83,16 @@
     {"id":{"name":"obj_upgradeItem","path":"objects/obj_upgradeItem/obj_upgradeItem.yy",},},
     {"id":{"name":"obj_xp","path":"objects/obj_xp/obj_xp.yy",},},
     {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
+    {"id":{"name":"room_area1","path":"rooms/room_area1/room_area1.yy",},},
     {"id":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
-    {"id":{"name":"room_floresta","path":"rooms/room_floresta/room_floresta.yy",},},
     {"id":{"name":"room_gameStart","path":"rooms/room_gameStart/room_gameStart.yy",},},
     {"id":{"name":"room_loja","path":"rooms/room_loja/room_loja.yy",},},
+    {"id":{"name":"room_playableArea","path":"rooms/room_playableArea/room_playableArea.yy",},},
     {"id":{"name":"scr_buy","path":"scripts/scr_buy/scr_buy.yy",},},
     {"id":{"name":"scr_globalGameControl","path":"scripts/scr_globalGameControl/scr_globalGameControl.yy",},},
     {"id":{"name":"scr_mathFunction","path":"scripts/scr_mathFunction/scr_mathFunction.yy",},},
     {"id":{"name":"scr_outline","path":"scripts/scr_outline/scr_outline.yy",},},
+    {"id":{"name":"scr_spawnEnemies","path":"scripts/scr_spawnEnemies/scr_spawnEnemies.yy",},},
     {"id":{"name":"spr_ataque","path":"sprites/spr_ataque/spr_ataque.yy",},},
     {"id":{"name":"spr_bomba","path":"sprites/spr_bomba/spr_bomba.yy",},},
     {"id":{"name":"spr_bruxa","path":"sprites/spr_bruxa/spr_bruxa.yy",},},
@@ -133,8 +135,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room_gameStart","path":"rooms/room_gameStart/room_gameStart.yy",},},
     {"roomId":{"name":"room_loja","path":"rooms/room_loja/room_loja.yy",},},
-    {"roomId":{"name":"room_floresta","path":"rooms/room_floresta/room_floresta.yy",},},
     {"roomId":{"name":"Room_Debug","path":"rooms/Room_Debug/Room_Debug.yy",},},
+    {"roomId":{"name":"room_playableArea","path":"rooms/room_playableArea/room_playableArea.yy",},},
+    {"roomId":{"name":"room_area1","path":"rooms/room_area1/room_area1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

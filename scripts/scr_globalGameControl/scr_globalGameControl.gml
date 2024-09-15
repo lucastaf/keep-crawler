@@ -10,6 +10,6 @@ global.status = {
 }
 
 global.explosionDamage = 5
-
+global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]
 //Upgrades
 

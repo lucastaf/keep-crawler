@@ -2,7 +2,7 @@ lvlUpgrades = {
 //padrao
 	vida : {
 		level : 1,
-		status : 100 + initialStats.vida.status,
+		status : 50 + initialStats.vida.status,
 		price : 100,
 		upgrade : function () {
 			selfUpgrade(5,5)
@@ -63,7 +63,7 @@ ultativo = false
 ultimate = lvlUpgrades.ultimate.status
 
 stamina = lvlUpgrades.stamina.status
-vida = lvlUpgrades.vida.status
+hp = lvlUpgrades.vida.status
 
 instance_create_depth(0,0,-100,obj_levelstatus)
 alarm[0]=50

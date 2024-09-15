@@ -27,9 +27,5 @@ initialStats = {
 	}
 }
 
-
-
-
-
 		
 startGame()
