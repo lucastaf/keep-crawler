@@ -3,5 +3,5 @@ if(!instance_exists(obj_inimigo) && !instance_exists(obj_portal)){
 }
 
 if(keyboard_check_pressed(ord("U"))){
-	room = room_loja	
+	room = rm_loja	
 }

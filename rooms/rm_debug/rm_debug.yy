@@ -1,16 +1,16 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room_Debug",
+  "%Name":"rm_debug",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5EBB289A","path":"rooms/Room_Debug/Room_Debug.yy",},
-    {"name":"inst_2314DA43","path":"rooms/Room_Debug/Room_Debug.yy",},
-    {"name":"inst_349494B3","path":"rooms/Room_Debug/Room_Debug.yy",},
-    {"name":"inst_39111168","path":"rooms/Room_Debug/Room_Debug.yy",},
-    {"name":"inst_7363993","path":"rooms/Room_Debug/Room_Debug.yy",},
+    {"name":"inst_5EBB289A","path":"rooms/rm_debug/rm_debug.yy",},
+    {"name":"inst_2314DA43","path":"rooms/rm_debug/rm_debug.yy",},
+    {"name":"inst_349494B3","path":"rooms/rm_debug/rm_debug.yy",},
+    {"name":"inst_39111168","path":"rooms/rm_debug/rm_debug.yy",},
+    {"name":"inst_7363993","path":"rooms/rm_debug/rm_debug.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,7 +31,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_dungeon","path":"tilesets/tile_dungeon/tile_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room_Debug",
+  "name":"rm_debug",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

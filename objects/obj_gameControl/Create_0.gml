@@ -6,7 +6,7 @@ function startGame(){
 
 function onDeath(){
 	global.dungeonLevel = 0
-	room_goto(room_gameStart)
+	room_goto(rm_game_start)
 	startGame()
 }
 

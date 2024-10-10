@@ -1,7 +1,7 @@
-if room = room_gameStart {
+if room = rm_game_start {
 	createStartGameUpgrades()
 }
 
-if room = room_area1 {
+if room = rm_area1 {
 	spawnEnemies(player_instance)	
 }
