@@ -1,3 +1,4 @@
+event_inherited()
 //Levels
 level = dmg + maxHealth
 
@@ -10,3 +11,13 @@ hp = maxHealth
 invincibility = false
 knockBackForce = 0
 knockbackAngle = 0
+
+flashOpacity = 0
+function takeDamage(ammount){
+	hp -= ammount
+	flashOpacity = 1
+	if hp <= 0	{
+		instance_destroy()
+	}
+
+}

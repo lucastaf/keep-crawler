@@ -1,13 +1,13 @@
-if hp <= 0 {instance_destroy()}
+event_inherited()
 
 if place_meeting(x,y,obj_explosao) {
-	hp -= global.status.level*global.explosionDamage
+	takeDamage(global.status.level*global.explosionDamage)
 }
 
 if place_meeting(x,y,obj_playerAttack) {
 	var attackInstance = instance_place(x,y,obj_playerAttack)
 	if !invincibility {
-		hp -= attackInstance.dmg
+		takeDamage(attackInstance.dmg)
 		time_source_start(knockBackTimeSource)
 		knockbackAngle = attackInstance.image_angle
 		knockBackForce = attackInstance.knockBackPower * knockBackAbsorption

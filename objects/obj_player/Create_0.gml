@@ -1,3 +1,5 @@
+event_inherited()
+
 lvlUpgrades = {
 //padrao
 	vida : {
@@ -71,6 +73,7 @@ alarm[0]=50
 function attack(a,b){
 	show_debug_message("Funcao Attack chamada em obj_player")
 } //Função vazia será reposta nos filhos
+
 
 function resetPosition(){
 	x = 650

@@ -16,8 +16,8 @@
     "path":"folders/Objects/inimigos/partial.yy",
   },
   "parentObjectId":{
-    "name":"obj_ataqueInimigo",
-    "path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",
+    "name":"obj_healthObject",
+    "path":"objects/obj_healthObject/obj_healthObject.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

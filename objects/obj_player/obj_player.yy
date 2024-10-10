@@ -16,7 +16,10 @@
     "name":"Personagem",
     "path":"folders/Objects/Personagem.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_healthObject",
+    "path":"objects/obj_healthObject/obj_healthObject.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
