@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_store",
+  "%Name":"obj_classManager",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_store",
+  "name":"obj_classManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"upgrades",
-    "path":"folders/Objects/Hud/upgrades.yy",
+    "name":"classSelector",
+    "path":"folders/Objects/Hud/classSelector.yy",
   },
   "parentObjectId":null,
   "persistent":false,

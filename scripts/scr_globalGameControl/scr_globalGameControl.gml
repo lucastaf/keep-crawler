@@ -1,6 +1,6 @@
 #macro playerSize 70
 
-global.selectedClass = obj_playerSwordsMan
+global.selectedClass = obj_playerArcher
 global.dungeonLevel = 0
 //Recursos
 global.status = {
@@ -8,6 +8,15 @@ global.status = {
 	money : 1000,
 	xp : 0,
 }
+
+global.achievements = {
+	knight : true,
+	archer : false,
+	mage : false,
+	bombman : false,
+	lancer : false
+}
+
 
 global.explosionDamage = 5
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]
