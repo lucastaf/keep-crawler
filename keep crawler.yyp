@@ -91,6 +91,7 @@
     {"id":{"name":"obj_xp","path":"objects/obj_xp/obj_xp.yy",},},
     {"id":{"name":"obj_zumbi","path":"objects/obj_zumbi/obj_zumbi.yy",},},
     {"id":{"name":"rm_area1","path":"rooms/rm_area1/rm_area1.yy",},},
+    {"id":{"name":"rm_class_selection","path":"rooms/rm_class_selection/rm_class_selection.yy",},},
     {"id":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"id":{"name":"rm_game_start","path":"rooms/rm_game_start/rm_game_start.yy",},},
     {"id":{"name":"rm_loja","path":"rooms/rm_loja/rm_loja.yy",},},
@@ -148,6 +149,7 @@
     {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"roomId":{"name":"rm_playable_area","path":"rooms/rm_playable_area/rm_playable_area.yy",},},
     {"roomId":{"name":"rm_area1","path":"rooms/rm_area1/rm_area1.yy",},},
+    {"roomId":{"name":"rm_class_selection","path":"rooms/rm_class_selection/rm_class_selection.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

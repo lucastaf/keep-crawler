@@ -33,5 +33,5 @@ classes = [
 
 
 array_foreach(classes, function(item, index) {
-	instance_create_depth(x, y + (index * 50), 0, obj_classSelection, item)	
+	instance_create_depth(x, y + (index * 100), 0, obj_classSelection, item)	
 })
