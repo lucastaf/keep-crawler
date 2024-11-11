@@ -1,7 +1,8 @@
 #macro playerSize 70
 
-global.selectedClass = obj_playerArcher
+global.selectedClass = obj_playerKnight
 global.dungeonLevel = 0
+global.killCount = 0
 //Recursos
 global.status = {
 	level : 20,
