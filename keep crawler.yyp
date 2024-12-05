@@ -49,6 +49,7 @@
   "resources":[
     {"id":{"name":"Font_pixelart","path":"fonts/Font_pixelart/Font_pixelart.yy",},},
     {"id":{"name":"obj_ataqueInimigo","path":"objects/obj_ataqueInimigo/obj_ataqueInimigo.yy",},},
+    {"id":{"name":"obj_barril","path":"objects/obj_barril/obj_barril.yy",},},
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_bruxa","path":"objects/obj_bruxa/obj_bruxa.yy",},},
     {"id":{"name":"obj_classManager","path":"objects/obj_classManager/obj_classManager.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"scr_outline","path":"scripts/scr_outline/scr_outline.yy",},},
     {"id":{"name":"scr_spawnEnemies","path":"scripts/scr_spawnEnemies/scr_spawnEnemies.yy",},},
     {"id":{"name":"spr_ataque","path":"sprites/spr_ataque/spr_ataque.yy",},},
+    {"id":{"name":"spr_barril","path":"sprites/spr_barril/spr_barril.yy",},},
     {"id":{"name":"spr_bomba","path":"sprites/spr_bomba/spr_bomba.yy",},},
     {"id":{"name":"spr_bruxa","path":"sprites/spr_bruxa/spr_bruxa.yy",},},
     {"id":{"name":"spr_cobra","path":"sprites/spr_cobra/spr_cobra.yy",},},

@@ -20,3 +20,15 @@ function spawnEnemies(playerInstance){
 		})
 	}
 }
+
+function spawnBarrels(){
+	border = 100
+	barrelQuantity = 2
+	
+
+	for(i = 0; i < barrelQuantity; i++){
+		xSpawn = random_range(border, room_width - (border * 2))
+		ySpawn = random_range(border, room_height - (border * 2))
+		instance_create_depth(xSpawn, ySpawn, 0, obj_barril)
+	}
+}

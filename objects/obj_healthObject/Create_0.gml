@@ -5,10 +5,12 @@ function onDeath(){
 
 
 function takeDamage(ammount){
-	hp -= ammount
-	flashOpacity = 1
-	if hp <= 0{
-		onDeath()
+	if(ammount > 0){
+		hp -= ammount
+		flashOpacity = 1
+		if hp <= 0{
+			onDeath()
+		}
 	}
 
 }
