@@ -17,6 +17,7 @@ function checkAchievements () {
 }
 
 function onDeath(){
+	instance_destroy(player_instance) 
 	checkAchievements()
 	global.dungeonLevel = 0
 	room_goto(rm_game_start)

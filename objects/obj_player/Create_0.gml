@@ -77,6 +77,9 @@ function attack(a,b){
 } //Função vazia será reposta nos filhos
 
 
+function onDeath(){
+	obj_gameControl.onDeath()
+}
 function resetPosition(xPos, yPos){
 	x = xPos
 	y = yPos
