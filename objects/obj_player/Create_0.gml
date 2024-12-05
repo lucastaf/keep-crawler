@@ -29,7 +29,7 @@ lvlUpgrades = {
 	},
 	ultimate : {
 		level : 1,
-		status : 10000,
+		status : 200,
 		price : 200
 	},
 
@@ -44,7 +44,7 @@ lvlUpgrades = {
 	},
 	ammo : {
 		level : 1,
-		status : 50,
+		status : 10,
 		price : 10,
 		upgrade : function(){
 			selfUpgrade(5,5)	

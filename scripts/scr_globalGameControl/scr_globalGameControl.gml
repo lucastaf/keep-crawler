@@ -12,14 +12,14 @@ global.status = {
 
 global.achievements = {
 	knight : true,
-	archer : false,
-	mage : false,
-	bombman : false,
-	lancer : false
+	archer : true,
+	mage : true,
+	bombman : true,
+	lancer : true
 }
 
 
-global.explosionDamage = 5
+global.explosionDamage = 50
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]
 //Upgrades
 

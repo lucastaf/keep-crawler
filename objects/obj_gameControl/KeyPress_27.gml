@@ -1,3 +1,4 @@
 room_goto(rm_main_menu)
+instance_destroy(obj_levelstatus)
 instance_destroy(player_instance)
 instance_destroy()

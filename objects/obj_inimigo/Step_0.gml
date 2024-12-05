@@ -1,8 +1,31 @@
 event_inherited()
 
-if place_meeting(x,y,obj_explosao) {
-	takeDamage(global.status.level*global.explosionDamage)
+
+#region move
+if !place_meeting(x,y, obj_stun){
+	Move()
+	if(stunned && stunnable){
+		stunned = false
+		part_emitter_enable(stunParticles, 0, false)
+	}
+}else {
+	if stunnable{
+		stunned = true	
+		part_system_position(stunParticles,x,bbox_top)
+		part_emitter_enable(stunParticles, 0, true)
+	}
 }
+
+if knockBackForce {
+	move_to_angle(knockbackAngle,knockBackForce)
+}
+#endregion
+
+#region colisões
+if place_meeting(x,y,obj_explosao) {
+	takeDamage((global.status.level + 1)*global.explosionDamage)
+}
+
 
 if place_meeting(x,y,obj_playerAttack) {
 	var attackInstance = instance_place(x,y,obj_playerAttack)
@@ -16,9 +39,7 @@ if place_meeting(x,y,obj_playerAttack) {
 }else{
 	invincibility = false	
 }
+#endregion
 
 
 
-if knockBackForce {
-	move_to_angle(knockbackAngle,knockBackForce)
-}

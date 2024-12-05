@@ -63,7 +63,10 @@ if place_meeting(x,y,obj_ataqueInimigo) || place_meeting(x,y,obj_inimigo){
 		if(place_meeting(x,y,obj_ataqueInimigo)){
 			takeDamage(instance_place(x,y,obj_ataqueInimigo).dmg) 
 		}else{
-			takeDamage(instance_place(x,y,obj_inimigo).dmg)
+			var inimigo = instance_place(x,y,obj_inimigo)
+			if !inimigo.stunned{
+				takeDamage(inimigo.dmg)
+			}
 		}
 		time_source_start(time_source_create(time_source_game,20, time_source_units_frames, function(){
 			invincibility = false

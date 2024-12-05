@@ -23,7 +23,7 @@
   ],
   "name":"spr_stun",
   "nineSlice":null,
-  "origin":3,
+  "origin":9,
   "parent":{
     "name":"Ataques",
     "path":"folders/Sprites/Personagem/Ataques.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":40,
     "yorigin":128,
   },
   "swatchColours":null,

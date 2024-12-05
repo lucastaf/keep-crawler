@@ -10,9 +10,11 @@ function attack(xpos,ypos){
 		image_angle : vectorToAngle([xpos,ypos]),
 		relativePosition : [xpos,ypos],
 		piercing : charged,
-		dmg : lvlUpgrades.dmg.status*1.8
+		dmg : lvlUpgrades.dmg.status*4
 	})
-	if charged {golpe.speed=20 golpe.dmg=2*golpe.dmg}
+	if charged {
+		golpe.speed=20 golpe.dmg=2*golpe.dmg
+	}
 		ammo --
 		charge = 0
 	}
