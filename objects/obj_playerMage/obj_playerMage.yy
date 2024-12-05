@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagem",
-    "path":"sprites/spr_personagem/spr_personagem.yy",
+    "name":"spr_mago",
+    "path":"sprites/spr_mago/spr_mago.yy",
   },
   "spriteMaskId":null,
   "visible":true,

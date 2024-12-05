@@ -50,6 +50,7 @@ lvlUpgrades = {
 		}
 	},
 }
+	
 //classes=["swordsman","archer","mage","bombman","lancer"]
 recargault = 10
 movimento= {
@@ -75,7 +76,7 @@ function attack(a,b){
 } //Função vazia será reposta nos filhos
 
 
-function resetPosition(){
-	x = 650
-	y = 600
+function resetPosition(xPos, yPos){
+	x = xPos
+	y = yPos
 }

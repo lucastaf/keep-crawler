@@ -17,6 +17,7 @@ function createStartGameUpgrades(){
 			self.lvlObject.price++
 			self.lvlObject.status += 50
 			obj_player.lvlUpgrades.vida.status += 50
+			obj_player.hp = obj_player.lvlUpgrades.vida.status
 		}
 	}
 },

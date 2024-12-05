@@ -1,5 +1,5 @@
 function startGame(){	
-	player_instance = instance_create_depth(650,600,0,global.selectedClass, {
+	player_instance = instance_create_depth(room_width / 2,600,0,global.selectedClass, {
 		initialStats : initialStats	
 	})
 }

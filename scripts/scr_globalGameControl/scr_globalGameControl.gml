@@ -5,8 +5,8 @@ global.dungeonLevel = 0
 global.killCount = 0
 //Recursos
 global.status = {
-	level : 20,
-	money : 1000,
+	level : 0,
+	money : 0,
 	xp : 0,
 }
 

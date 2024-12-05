@@ -12,7 +12,7 @@ function spawnEnemies(playerInstance){
 	var maxDmg = level * 10
 	var minDmg = level * 8
 	for (i = 0; i <= enemiesQuantity; i++){
-		var spawnPoint = polarToCartesianCoordinates(500, random_range(0, 180), playerInstance.x, playerInstance.y)
+		var spawnPoint = polarToCartesianCoordinates(350, random_range(0, 360), playerInstance.x, playerInstance.y)
 		instance_create_depth(spawnPoint.x,spawnPoint.y,0,global.enemies[random_range(0,array_length(global.enemies))],
 		{
 			dmg : random_range(minDmg, maxDmg),

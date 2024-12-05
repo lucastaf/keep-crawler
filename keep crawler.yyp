@@ -116,6 +116,7 @@
     {"id":{"name":"spr_knight","path":"sprites/spr_knight/spr_knight.yy",},},
     {"id":{"name":"spr_lanca","path":"sprites/spr_lanca/spr_lanca.yy",},},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},},
+    {"id":{"name":"spr_mago","path":"sprites/spr_mago/spr_mago.yy",},},
     {"id":{"name":"spr_marreta","path":"sprites/spr_marreta/spr_marreta.yy",},},
     {"id":{"name":"spr_orb","path":"sprites/spr_orb/spr_orb.yy",},},
     {"id":{"name":"spr_orbBruxa","path":"sprites/spr_orbBruxa/spr_orbBruxa.yy",},},
