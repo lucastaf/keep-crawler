@@ -16,7 +16,7 @@ function getUpgradeProps(lvlObject, label, itemSprite) {
 }
 
 var upgradesByClass = {
-	obj_playerSwordsMan : [
+	obj_playerKnight : [
 		getUpgradeProps(playerInstance.lvlUpgrades.vida, "VIDA",spr_shopVida),
 		getUpgradeProps(playerInstance.lvlUpgrades.dmg, "DANO",spr_shopDmg),
 		getUpgradeProps(playerInstance.lvlUpgrades.stamina, "STAMINA",spr_shopStamina),

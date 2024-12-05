@@ -8,6 +8,7 @@ lvlUpgrades = {
 		price : 100,
 		upgrade : function () {
 			selfUpgrade(5,5)
+			obj_player.hp = obj_player.lvlUpgrades.vida.status
 		}
 	},
 	dmg : {

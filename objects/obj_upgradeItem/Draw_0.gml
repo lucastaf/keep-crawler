@@ -21,7 +21,7 @@ if struct_get(lvlObject,"level") {
 //Se nao, é upgrade no reset
 else {
 	//PRICE
-	draw_text_outline_transformed(bbox_right - 80, bbox_bottom - 4, string_concat("LVL ",round(lvlObject.price)), c_white, c_black, 1, 0.7, 0.7)
+	draw_text_outline_transformed(bbox_right - 80, bbox_bottom - 4, string_concat(round(lvlObject.price), " LVLs"), c_white, c_black, 1, 0.7, 0.7)
 	//STATUS
 	draw_text_outline_transformed(bbox_right - 90,yCenter - 2, lvlObject.status, c_white, c_black, 1,1,1)
 }
