@@ -1,3 +1,4 @@
+event_inherited()
 alarm[0] = 15
 image_angle = vectorToAngle(relativePosition)
 x = obj_player.x + relativePosition[0] * (playerSize / 1.5)

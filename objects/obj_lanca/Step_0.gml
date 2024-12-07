@@ -10,6 +10,11 @@ if keyboard_check(vk_space){
 else {
 	acel = -1
 }
+
+if keyboard_check_pressed(vk_space){
+	audio_play_sound(snd_swing_rev, 1, false)
+}
+
 if speed > 0 && speed <= 25{
 	speed += acel
 } 

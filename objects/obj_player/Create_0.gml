@@ -36,7 +36,7 @@ lvlUpgrades = {
 	//por classe
 	mana : {
 		level : 1,
-		status : 100,
+		status : 100000,
 		price : 100,
 		upgrade : function(){
 			selfUpgrade(5,5)	
@@ -84,3 +84,4 @@ function resetPosition(xPos, yPos){
 	x = xPos
 	y = yPos
 }
+

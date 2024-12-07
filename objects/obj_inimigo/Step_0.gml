@@ -23,14 +23,14 @@ if knockBackForce {
 
 #region colisões
 if place_meeting(x,y,obj_explosao) {
-	takeDamage((global.status.level + 1)*global.explosionDamage)
+	takeDamage((obj_player.lvlUpgrades.dmg.status))
 }
 
 
 if place_meeting(x,y,obj_playerAttack) {
 	var attackInstance = instance_place(x,y,obj_playerAttack)
 	if !invincibility {
-		takeDamage(attackInstance.dmg)
+		takeDamage(attackInstance.dmg, attackInstance.enemyHitSound)
 		time_source_start(knockBackTimeSource)
 		knockbackAngle = attackInstance.image_angle
 		knockBackForce = attackInstance.knockBackPower * knockBackAbsorption

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_swing_rev",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.239456,
+  "name":"snd_swing_rev",
+  "parent":{
+    "name":"Swing",
+    "path":"folders/SFX/Swing.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_swing_rev.wav",
+  "type":0,
+  "volume":1.0,
+}

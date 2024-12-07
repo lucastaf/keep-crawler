@@ -51,7 +51,7 @@ if keyboard_check_pressed(ord("D")){
 #region Colisões
 //colisões
 if place_meeting(x,y,obj_explosao){
-	takeDamage(global.status.level*global.explosionDamage) 
+	takeDamage(global.status.level* explosionDamage) 
 }
 
 //slow

@@ -1,4 +1,5 @@
 #macro playerSize 70
+#macro explosionDamage 50
 
 global.selectedClass = obj_playerKnight
 global.dungeonLevel = 0
@@ -18,8 +19,6 @@ global.achievements = {
 	lancer : true
 }
 
-
-global.explosionDamage = 50
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]
 //Upgrades
 
