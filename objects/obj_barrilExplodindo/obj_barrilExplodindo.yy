@@ -1,24 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_barril",
+  "%Name":"obj_barrilExplodindo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_barril",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"propertyId":{"name":"knockBackAbsorption","path":"objects/obj_inimigo/obj_inimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"propertyId":{"name":"maxHealth","path":"objects/obj_inimigo/obj_inimigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
-  ],
+  "name":"obj_barrilExplodindo",
+  "overriddenProperties":[],
   "parent":{
     "name":"barril",
     "path":"folders/Objects/Cenario/barril.yy",
   },
-  "parentObjectId":{
-    "name":"obj_inimigo",
-    "path":"objects/obj_inimigo/obj_inimigo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barril",
-    "path":"sprites/spr_barril/spr_barril.yy",
+    "name":"spr_barrilExplosivo",
+    "path":"sprites/spr_barrilExplosivo/spr_barrilExplosivo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

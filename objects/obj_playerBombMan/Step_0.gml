@@ -10,6 +10,9 @@ event_inherited();
 
 
 if ultativo = true && ultimate > 0 {
+	invincibility = true
 	vida = lvlUpgrades.vida.status
 	ammo = lvlUpgrades.ammo.status	
+} else{
+	invincibility = false	
 }

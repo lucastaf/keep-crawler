@@ -1,16 +1,16 @@
 event_inherited()
 #region Movimento
 
-if keyboard_check(vk_right){
+if keyboard_check(ord("L")) || keyboard_check(vk_right){
 	movimento.hspd = movimento.spd
-}else if keyboard_check(vk_left){
+}else if keyboard_check(ord("J")) || keyboard_check(vk_left){
 	movimento.hspd = -movimento.spd
 }else {
 	movimento.hspd = 0
 }
-if keyboard_check(vk_up){
+if keyboard_check(ord("I")) || keyboard_check(vk_up) {
 	movimento.vspd = -movimento.spd
-}else if keyboard_check(vk_down){
+}else if keyboard_check(ord("K")) || keyboard_check(vk_down){
 	movimento.vspd = movimento.spd
 }else {
 	movimento.vspd = 0
@@ -50,8 +50,8 @@ if keyboard_check_pressed(ord("D")){
 
 #region Colisões
 //colisões
-if place_meeting(x,y,obj_explosao){
-	takeDamage(global.status.level* explosionDamage) 
+if place_meeting(x,y,obj_explosao) && !invincibility {
+	takeDamage(explosionDamage) 
 }
 
 //slow
