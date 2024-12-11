@@ -36,7 +36,7 @@ lvlUpgrades = {
 	//por classe
 	mana : {
 		level : 1,
-		status : 100000,
+		status : 200,
 		price : 100,
 		upgrade : function(){
 			selfUpgrade(5,5)	

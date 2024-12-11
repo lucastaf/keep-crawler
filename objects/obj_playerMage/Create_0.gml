@@ -11,7 +11,7 @@ function attack (xpos,ypos){
 			laserInstance =  instance_create_depth(x,y,-10,obj_laser, {
 			relativePosition:[xpos,ypos],
 			playerInstance : playerInstance,
-			dmg: lvlUpgrades.dmg.status * 2
+			dmg: lvlUpgrades.dmg.status * 2.5
 			})
 		}				
 	}else{

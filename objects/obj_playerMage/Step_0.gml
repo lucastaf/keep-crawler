@@ -16,7 +16,7 @@ if ultativo = true && ultimate > 0 {
 if keyboard_check_pressed(vk_space){
 	if mana >= 	30{
 		instance_create_depth(other.x,other.y,-10,obj_orb,{
-			dmg: lvlUpgrades.dmg.status * 2
+			dmg: lvlUpgrades.dmg.status * 3
 		})
 		mana -= 30	
 	}	
