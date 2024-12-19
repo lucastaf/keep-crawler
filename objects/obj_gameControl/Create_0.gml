@@ -5,7 +5,7 @@ function startGame(){
 }
 
 function checkAchievements () {
-	if global.dungeonLevel >= 2 {
+	if global.dungeonLevel >= 10 {
 		global.achievements.archer = true
 	}
 	if global.dungeonLevel >= 25 {
@@ -18,7 +18,7 @@ function checkAchievements () {
 		global.achievements.lancer = true
 	}
 	
-	Save(global.achievements)
+	Save()
 }
 
 function onDeath(){
@@ -28,37 +28,25 @@ function onDeath(){
 	global.status.money = 0
 	global.dungeonLevel = 0
 	room_goto(rm_game_start)
+	global.initialStatus = initialStats
 	startGame()
 }
 
 
 
-initialStats = {
-	vida : {
-		price: 2,
-		status: 0,
-	},
-	dmg : {
-		price: 2,
-		status: 0,
-	},
-	stamina : {
-		price: 2,
-		status: 0,
-	}
-}
+initialStats = global.initialStatus
 
 function goToNextDungeonLevel(){
 	global.dungeonLevel++
 	if global.dungeonLevel % 5 == 0 {
 		room_goto(rm_loja)
-		other.resetPosition(650, 600)
+		obj_player.resetPosition(650, 600)
 	}else if global.dungeonLevel % 20 < 10 {
 		room_goto(rm_area2)
-		other.resetPosition(800, 512)
+		obj_player.resetPosition(800, 512)
 	}else{
-		room_goto(rm_game_start)	
-		other.resetPosition(650, 600)
+		room_goto(rm_area1)	
+		obj_player.resetPosition(650, 600)
 	}
 }
 		

@@ -12,18 +12,32 @@ global.status = {
 }
 
 var loadedData = Load()
-show_debug_message("DADOS CARREGADOS")
-show_debug_message(loadedData)
 if loadedData == false{
 	global.achievements = {
 		knight : true,
 		archer : false,
-		mage : true,
+		mage : false,
 		bombman : false,
 		lancer : false
 	}
+	
+	global.initialStatus = {
+	vida : {
+		price: 2,
+		status: 0,
+	},
+	dmg : {
+		price: 2,
+		status: 0,
+	},
+	stamina : {
+		price: 2,
+		status: 0,
+	}
+}
 }else {
-	global.achievements = loadedData
+	global.achievements = loadedData.achievements
+	global.initialStatus = loadedData.initialStatus
 }
 
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]

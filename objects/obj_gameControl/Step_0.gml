@@ -14,3 +14,7 @@ if(keyboard_check_pressed(ord("2"))){
 if(keyboard_check_pressed(ord("3"))){
 	global.status.money += 10
 }
+
+if(keyboard_check_pressed(ord("Q"))){
+	goToNextDungeonLevel()
+}

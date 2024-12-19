@@ -1,7 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Save(data){
+function Save(){
 	
+	var data = {
+			achievements : global.achievements,
+			initialStatus :	global.initialStatus
+	}
 	//checa se ja existe um arquivo
 	if file_exists("save.sav"){
 		file_delete("save.sav")
