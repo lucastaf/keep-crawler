@@ -3,6 +3,7 @@ event_inherited();
 ammo = lvlUpgrades.ammo.status
 
 function attack(xpos,ypos){
+	image_xscale = xpos < 0 ? -1 : 1
 	if ammo > 0{
 	var charged = charge >=100 ? true : false
 	audio_play_sound(choose(snd_bow_1, snd_bow_2),1,false)

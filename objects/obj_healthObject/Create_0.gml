@@ -26,5 +26,4 @@ function takeDamage(ammount){
 
 }
 
-
 	

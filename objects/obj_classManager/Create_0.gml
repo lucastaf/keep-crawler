@@ -15,19 +15,19 @@ classes = [
 		unlocked : global.achievements.mage,
 		class: obj_playerMage,
 		className : "Wizzard",
-		achievementText : "Kill 50 enemies"
+		achievementText : "Kill 50 enemies in a run"
 	},
 	{
-		unlocked : global.achievements.mage,
+		unlocked : global.achievements.bombman,
 		class: obj_playerBombMan,
 		className : "Bomban",
-		achievementText : "Beat level 20 to unlock"
+		achievementText : "Beat level 25 to unlock"
 	},
 	{
 		unlocked : global.achievements.lancer,
 		class: obj_playerLancer,
 		className : "Lancer",
-		achievementText : "Defeat the final boss to unlock"
+		achievementText : "Beat level 50 to unlock"
 	}
 ]
 

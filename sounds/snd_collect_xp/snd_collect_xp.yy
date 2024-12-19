@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_collect_xp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.444104,
+  "name":"snd_collect_xp",
+  "parent":{
+    "name":"Collect",
+    "path":"folders/SFX/Collect.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_collect_xp.wav",
+  "type":0,
+  "volume":0.2,
+}

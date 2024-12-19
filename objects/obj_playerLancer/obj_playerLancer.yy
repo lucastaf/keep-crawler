@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagem",
-    "path":"sprites/spr_personagem/spr_personagem.yy",
+    "name":"spr_lancerman",
+    "path":"sprites/spr_lancerman/spr_lancerman.yy",
   },
   "spriteMaskId":null,
   "visible":true,

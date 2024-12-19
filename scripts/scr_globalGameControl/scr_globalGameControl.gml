@@ -13,10 +13,10 @@ global.status = {
 
 global.achievements = {
 	knight : true,
-	archer : true,
+	archer : false,
 	mage : true,
-	bombman : true,
-	lancer : true
+	bombman : false,
+	lancer : false
 }
 
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]

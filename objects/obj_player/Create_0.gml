@@ -72,6 +72,18 @@ hp = lvlUpgrades.vida.status
 instance_create_depth(0,0,-100,obj_levelstatus)
 alarm[0]=50
 
+
+function takeHealth(ammount){
+	if(ammount > 0){
+		if hp + ammount > lvlUpgrades.vida.status {
+			hp = lvlUpgrades.vida.status
+		}else{
+			hp = lvlUpgrades.vida.status	
+		}
+	}
+}
+
+
 function attack(a,b){
 	show_debug_message("Funcao Attack chamada em obj_player")
 } //Função vazia será reposta nos filhos

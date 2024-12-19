@@ -2,7 +2,7 @@ if room = rm_game_start {
 	createStartGameUpgrades()
 }
 
-if room = rm_area1 {
+if room == rm_area2 || room == rm_area1 {
 	spawnEnemies(player_instance)	
 	spawnBarrels()
 }
