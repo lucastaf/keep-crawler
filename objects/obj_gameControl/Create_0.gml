@@ -46,7 +46,7 @@ function goToNextDungeonLevel(){
 		obj_player.resetPosition(800, 512)
 	}else{
 		room_goto(rm_area1)	
-		obj_player.resetPosition(650, 600)
+		obj_player.resetPosition(800, 512)
 	}
 }
 		
