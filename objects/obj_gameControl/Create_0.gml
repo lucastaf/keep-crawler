@@ -5,7 +5,7 @@ function startGame(){
 }
 
 function checkAchievements () {
-	if global.dungeonLevel >= 10 {
+	if global.dungeonLevel >= 2 {
 		global.achievements.archer = true
 	}
 	if global.dungeonLevel >= 25 {
@@ -17,6 +17,8 @@ function checkAchievements () {
 	if global.dungeonLevel >= 50 {
 		global.achievements.lancer = true
 	}
+	
+	Save(global.achievements)
 }
 
 function onDeath(){

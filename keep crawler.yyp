@@ -114,6 +114,7 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"scr_buy","path":"scripts/scr_buy/scr_buy.yy",},},
     {"id":{"name":"scr_globalGameControl","path":"scripts/scr_globalGameControl/scr_globalGameControl.yy",},},
+    {"id":{"name":"scr_LoadSave","path":"scripts/scr_LoadSave/scr_LoadSave.yy",},},
     {"id":{"name":"scr_mathFunction","path":"scripts/scr_mathFunction/scr_mathFunction.yy",},},
     {"id":{"name":"scr_outline","path":"scripts/scr_outline/scr_outline.yy",},},
     {"id":{"name":"scr_spawnEnemies","path":"scripts/scr_spawnEnemies/scr_spawnEnemies.yy",},},

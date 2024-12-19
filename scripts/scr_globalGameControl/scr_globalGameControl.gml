@@ -11,12 +11,19 @@ global.status = {
 	xp : 0,
 }
 
-global.achievements = {
-	knight : true,
-	archer : false,
-	mage : true,
-	bombman : false,
-	lancer : false
+var loadedData = Load()
+show_debug_message("DADOS CARREGADOS")
+show_debug_message(loadedData)
+if loadedData == false{
+	global.achievements = {
+		knight : true,
+		archer : false,
+		mage : true,
+		bombman : false,
+		lancer : false
+	}
+}else {
+	global.achievements = loadedData
 }
 
 global.enemies = [obj_zumbi, obj_esqueleto, obj_cobra, obj_bruxa, obj_cogumelo]
