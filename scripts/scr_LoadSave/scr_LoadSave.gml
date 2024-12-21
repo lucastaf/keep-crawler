@@ -29,3 +29,10 @@ function Load(){
 	var _loaddata = json_parse(_string)	
 	return _loaddata
 }
+
+function DeleteSave(){
+	if file_exists("save.sav"){
+		file_delete("save.sav")	
+		setGlobalStatus()
+	}
+}

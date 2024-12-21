@@ -4,19 +4,19 @@
 ///@function spawnEnemies(level);
 ///@param {instance} playerInstance the current player instance
 ///@description Spawna inimigos quando a fase começa.
-function spawnEnemies(playerInstance){
+function spawnEnemies(){
 	var level = global.dungeonLevel
 	var enemiesQuantity = (log10(level + 15)*15)-random_range(13, 15) 
-	var maxHealth = level * 20
-	var minHealth = level * 18
-	var maxDmg = level * 10
-	var minDmg = level * 8
+	var maxHealth = level * 2000
+	var minHealth = level * 800
+	var maxDmg = level * 20
+	var minDmg = level * 6
 	for (i = 0; i <= enemiesQuantity; i++){
-		var spawnPoint = polarToCartesianCoordinates(400, i * (360 / enemiesQuantity), playerInstance.x, playerInstance.y)
-		instance_create_depth(spawnPoint.x,spawnPoint.y,0,global.enemies[random_range(0,array_length(global.enemies))],
+		var spawnPoint = polarToCartesianCoordinates(400, i * (360 / enemiesQuantity), room_width / 2, room_height / 2)
+		instance_create_depth(spawnPoint.x,spawnPoint.y,0,enemies[random_range(0,array_length(enemies))],
 		{
 			dmg : random_range(minDmg, maxDmg),
-			hp : random_range(minHealth, maxHealth)
+			maxHealth : random_range(minHealth, maxHealth)
 		})
 	}
 }

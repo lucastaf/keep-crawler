@@ -11,7 +11,7 @@ function move_to_angle(angle, force){
 }
 
 
-///@param {Real} distance  {Real} initialX {Real} initialY
+///@param {Real} distance {Real} initialX {Real} initialY
 ///@param {Real} angle angle in deegrees
 ///@description Converte de coordenadas polares para cartesiano dado um X,Y inicial
 function polarToCartesianCoordinates(distance, angle, initialX = 0, initialY = 0){
@@ -19,7 +19,7 @@ function polarToCartesianCoordinates(distance, angle, initialX = 0, initialY = 0
 	var YAmmount = distance * dsin(angle)
 	return {
 		x : initialX + Xammount,
-		y : initialY - YAmmount // menos por conta do plano cartesiano invertido
+		y : initialY - YAmmount // subtração por conta do plano cartesiano invertido
 	}
 }
 
