@@ -61,7 +61,7 @@ if place_meeting(x,y,obj_ataqueInimigo) || place_meeting(x,y,obj_inimigo){
 	}
 	if !invincibility {
 		if(place_meeting(x,y,obj_ataqueInimigo)){
-			takeDamage(instance_place(x,y,obj_ataqueInimigo).dmg) 
+			takeDamage(instance_place(x,y,obj_ataqueInimigo).dmg ?? 0) 
 		}else{
 			var inimigo = instance_place(x,y,obj_inimigo)
 			if !inimigo.stunned{
