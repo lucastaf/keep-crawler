@@ -8,7 +8,7 @@ function selfUpgrade(statusRise, priceRise){
 
 function createStartGameUpgrades(){
 	var upgradesList = [{
-	label: "VIDA",
+	label: "Health",
 	lvlObject : initialStats.vida,
 	itemSprite : spr_shopVida,
 	onClick : function () {
@@ -22,7 +22,7 @@ function createStartGameUpgrades(){
 	}
 },
 {
-	label: "DANO",
+	label: "Damage",
 	lvlObject : initialStats.dmg,
 	itemSprite : spr_shopDmg,
 	onClick : function () {
@@ -35,7 +35,7 @@ function createStartGameUpgrades(){
 	}
 },
 {
-	label: "STAMINA",
+	label: "Stamina",
 	lvlObject : initialStats.stamina,
 	itemSprite : spr_shopStamina,
 	onClick : function () {
